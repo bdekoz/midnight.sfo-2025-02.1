@@ -1,7 +1,7 @@
 ## About
 - [progressive metrics](/docs/about_1.md)
 - [key to glyphs](/docs/about_2.md)
-- pixel 8, android 15, 20 iter, sfo
+- Android 15, Pixel 8, 20 iter, sfo
 
 
 ## Results
