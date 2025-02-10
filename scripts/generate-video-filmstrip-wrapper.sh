@@ -27,28 +27,14 @@ generate_platform_by_sitelist() {
        echo "$i"
        echo "${URLM}"
 
-       CUTMETRIC=.LastVisualChange.median
-
        FFJSON=${FIREFOXDIR}/${URLM}-metrics.json
-       FFCUTP=`grep -c ${CUTMETRIC} ${FFJSON}`
-       FFMAX=0
-       if [ "${FFCUTP}" -gt 0 ]; then
-	   FFMAX=`cat ${FFJSON} | jq -r '$CUTMETRIC'`
-       fi
-       echo "$URLM LastVisualChange firefox is $FFMAX"
-
+       FFMAX=`cat ${FFJSON} | jq -r '.LastVisualChange.median'`
        FFV="${ODIR}/${ARTIFACT_BASE}-firefox.mp4"
        $XTHUMBNAILS $FFV $FFMAX
        echo "$FFV + $FFMAX"
 
        CJSON=${CHROMEDIR}/${URLM}-metrics.json
-       CCUTP=`grep -c ${CUTMETRIC} ${CJSON}`
-       CMAX=0
-       if [ "${CCUTP}" -gt 0 ]; then
-	   CMAX=`cat ${CJSON} | jq -r '$CUTMETRIC'`
-       fi
-       echo "$URLM LastVisualChange chrome is $CMAX"
-
+       CMAX=`cat ${CJSON} | jq -r '.LastVisualChange.median'`
        CV="${ODIR}/${ARTIFACT_BASE}-chrome.mp4"
        $XTHUMBNAILS $CV $CMAX
        echo "$CV + $CMAX"
@@ -58,4 +44,5 @@ generate_platform_by_sitelist() {
 
 }
 
-generate_platform_by_sitelist "android" "./sitelist.txt" "2025-01-29"
+TPMETADATA="android-14-a55"
+generate_platform_by_sitelist "$TPMETADATA" "./sitelist.txt" "2025-01-27"
