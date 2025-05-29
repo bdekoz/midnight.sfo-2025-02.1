@@ -79,4 +79,4 @@ generate_platform_by_sitelist() {
 
 #TPMETADATA="android-15-p8"
 TPMETADATA="android-15-ptablet"
-generate_platform_by_sitelist "$TPMETADATA" "./sitelist.txt" "2025-02-07"
+generate_platform_by_sitelist "$TPMETADATA" "./sitelist.txt" "2025-05-15"
