@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+     id="svg2" xml:space="preserve"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:svg="http://www.w3.org/2000/svg"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+x="0px" y="0px"
+width="1200.000000px" height="2000.000000px"
+viewBox="0 0 1200.000000 2000.000000" enable-background="new 0 0 1200.000000 2000.000000">
+
+<title>
+2025-03-06-android-15-ptablet-m_imdb-aggregate
+</title>
+<desc>
+This is a visualization of data relating to web browser page load performance.It consists of three items: metadata about the page being tested, a video screenrecording of Firefox and Chrome browsers loading the url, and a composite graphic of 11 dual bar charts tracking specific metrics collected during the page load process. The top bar chart grows up from a center line, and graphs metric values  in milliseconds, and lower is better. The lower bar chart grows down and  contains the relative standard deviation, as a percentage value 0-100
+</desc>
+<defs>
+    <filter id="gblur10" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="10" />
+      <feOffset dx="0" dy="0" />
+     </filter>
+    <filter id="gblur20" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="20" />
+      <feOffset dx="0" dy="0" />
+    </filter>
+    <filter id="gblur10y" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0, 10" />
+      <feOffset dx="0" dy="0" />
+    </filter>
+    <filter id="gblur20y" x="0" y="0">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="0, 20" />
+      <feOffset dx="0" dy="0" />
+    </filter>
+  </defs>
+
+<rect x="0.000000" y="0.000000" width="1200.000000" height="2000.000000"
+ style="fill:rgb(0,0,0); fill-opacity:0; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:2" />
+<rect x="330.000000" y="0.000000" width="540.000000" height="150.000000"
+ style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5" />
+ <a href="https://m.imdb.com/">
+<text x="600.000000" y="50.000000" font-family="Atkinson Hyperlegible" font-size="24.000000pt" text-anchor="middle" text-align="center" font-weight="600" font-style="normal"  style="fill:rgb(0,0,255); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5">m_imdb</text>
+ </a>
+<text x="667.500000" y="74.000000" font-family="Atkinson Hyperlegible" font-size="14.000000pt" text-anchor="start" text-align="left" font-weight="600" font-style="normal"  style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:0; stroke-width:0.5">chrome</text>
+<text x="532.500000" y="74.000000" font-family="Atkinson Hyperlegible" font-size="14.000000pt" text-anchor="end" text-align="right" font-weight="600" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:0; stroke-width:0.5">firefox</text>
+<text x="600.000000" y="98.000000" font-family="Atkinson Hyperlegible" font-size="12.000000pt" text-anchor="middle" text-align="center" font-weight="500" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5">2025-03-06</text>
+<text x="605.000000" y="110.000000" font-family="Atkinson Hyperlegible" font-size="12.000000pt" text-anchor="middle" text-align="center" font-weight="500" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5">android-15-ptablet</text>
+<g id="video_side_x_side">
+<g>
+
+<g id="video-wrapper" transform="scale(1,1)">
+
+<foreignObject x="330.000000" y="150.000000" width="2160.000000" height="2340.000000">
+ <video xmlns="http://www.w3.org/1999/xhtml" controls="" loop="false" muted="true" width="540.000000" height="585.000000" > 
+<source src="../videos/2025-03-06-android-15-ptablet-m_imdb-side-by-side.mp4" type="video/mp4" />
+</video>
+ </foreignObject></g></g>
+ </g><svg id="inner-line-graph" viewBox="0 0 900.000000 600.000000" x="150px" y="785px" width="900.000000px" height="600.000000px" 
+>
+ <g id="tic-x-annotation">
+<text x="100.000000" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">0.0s</text>
+<text x="134.653465" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">1.0s</text>
+<text x="169.306931" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">2.0s</text>
+<text x="203.960396" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">3.0s</text>
+<text x="238.613861" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">4.0s</text>
+<text x="273.267327" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">5.0s</text>
+<text x="307.920792" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">6.0s</text>
+<text x="342.574257" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">7.0s</text>
+<text x="377.227723" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">8.0s</text>
+<text x="411.881188" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">9.0s</text>
+<text x="446.534653" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">10.0s</text>
+<text x="481.188119" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">11.0s</text>
+<text x="515.841584" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">12.0s</text>
+<text x="550.495050" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">13.0s</text>
+<text x="585.148515" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">14.0s</text>
+<text x="619.801980" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">15.0s</text>
+<text x="654.455446" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">16.0s</text>
+<text x="689.108911" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">17.0s</text>
+<text x="723.762376" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">18.0s</text>
+<text x="758.415842" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">19.0s</text>
+<text x="793.069307" y="512.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">20.0s</text>
+ </g> <g id="tic-y-annotation">
+<text x="88.000000" y="460.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="812.000000" y="460.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="88.000000" y="420.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="812.000000" y="420.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="88.000000" y="380.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="812.000000" y="380.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="88.000000" y="340.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="812.000000" y="340.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="88.000000" y="300.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="812.000000" y="300.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="88.000000" y="260.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="812.000000" y="260.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="88.000000" y="220.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="812.000000" y="220.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="88.000000" y="180.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="812.000000" y="180.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="88.000000" y="140.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="812.000000" y="140.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="88.000000" y="100.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="812.000000" y="100.000000" font-family="Apercu" font-size="7.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(148,148,148); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:0; stroke-width:0.5">100%</text>
+ </g> <g id="tic-y-lines-annotation">
+<line x1="112.000000" y1="460.000000" x2="788.000000" y2="460.000000" style="fill:rgb(118,118,118); fill-opacity:0; stroke:rgb(230,230,230); stroke-opacity:1; stroke-width:1" />
+<text x="134.653465" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="169.306931" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="203.960396" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="238.613861" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="273.267327" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="307.920792" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="342.574257" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="377.227723" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="411.881188" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="446.534653" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="481.188119" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="515.841584" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="550.495050" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="585.148515" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="619.801980" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="654.455446" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="689.108911" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="723.762376" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<text x="758.415842" y="460.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">10%</text>
+<line x1="112.000000" y1="420.000000" x2="788.000000" y2="420.000000" style="fill:rgb(118,118,118); fill-opacity:0; stroke:rgb(230,230,230); stroke-opacity:1; stroke-width:1" />
+<text x="134.653465" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="169.306931" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="203.960396" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="238.613861" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="273.267327" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="307.920792" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="342.574257" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="377.227723" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="411.881188" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="446.534653" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="481.188119" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="515.841584" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="550.495050" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="585.148515" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="619.801980" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="654.455446" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="689.108911" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="723.762376" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<text x="758.415842" y="420.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">20%</text>
+<line x1="112.000000" y1="380.000000" x2="788.000000" y2="380.000000" style="fill:rgb(118,118,118); fill-opacity:0; stroke:rgb(230,230,230); stroke-opacity:1; stroke-width:1" />
+<text x="134.653465" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="169.306931" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="203.960396" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="238.613861" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="273.267327" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="307.920792" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="342.574257" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="377.227723" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="411.881188" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="446.534653" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="481.188119" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="515.841584" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="550.495050" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="585.148515" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="619.801980" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="654.455446" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="689.108911" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="723.762376" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<text x="758.415842" y="380.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">30%</text>
+<line x1="112.000000" y1="340.000000" x2="788.000000" y2="340.000000" style="fill:rgb(118,118,118); fill-opacity:0; stroke:rgb(230,230,230); stroke-opacity:1; stroke-width:1" />
+<text x="134.653465" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="169.306931" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="203.960396" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="238.613861" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="273.267327" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="307.920792" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="342.574257" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="377.227723" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="411.881188" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="446.534653" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="481.188119" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="515.841584" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="550.495050" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="585.148515" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="619.801980" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="654.455446" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="689.108911" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="723.762376" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<text x="758.415842" y="340.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">40%</text>
+<line x1="112.000000" y1="300.000000" x2="788.000000" y2="300.000000" style="fill:rgb(118,118,118); fill-opacity:0; stroke:rgb(230,230,230); stroke-opacity:1; stroke-width:1" />
+<text x="134.653465" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="169.306931" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="203.960396" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="238.613861" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="273.267327" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="307.920792" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="342.574257" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="377.227723" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="411.881188" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="446.534653" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="481.188119" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="515.841584" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="550.495050" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="585.148515" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="619.801980" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="654.455446" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="689.108911" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="723.762376" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<text x="758.415842" y="300.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">50%</text>
+<line x1="112.000000" y1="260.000000" x2="788.000000" y2="260.000000" style="fill:rgb(118,118,118); fill-opacity:0; stroke:rgb(230,230,230); stroke-opacity:1; stroke-width:1" />
+<text x="134.653465" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="169.306931" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="203.960396" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="238.613861" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="273.267327" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="307.920792" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="342.574257" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="377.227723" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="411.881188" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="446.534653" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="481.188119" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="515.841584" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="550.495050" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="585.148515" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="619.801980" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="654.455446" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="689.108911" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="723.762376" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<text x="758.415842" y="260.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">60%</text>
+<line x1="112.000000" y1="220.000000" x2="788.000000" y2="220.000000" style="fill:rgb(118,118,118); fill-opacity:0; stroke:rgb(230,230,230); stroke-opacity:1; stroke-width:1" />
+<text x="134.653465" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="169.306931" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="203.960396" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="238.613861" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="273.267327" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="307.920792" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="342.574257" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="377.227723" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="411.881188" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="446.534653" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="481.188119" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="515.841584" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="550.495050" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="585.148515" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="619.801980" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="654.455446" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="689.108911" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="723.762376" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<text x="758.415842" y="220.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">70%</text>
+<line x1="112.000000" y1="180.000000" x2="788.000000" y2="180.000000" style="fill:rgb(118,118,118); fill-opacity:0; stroke:rgb(230,230,230); stroke-opacity:1; stroke-width:1" />
+<text x="134.653465" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="169.306931" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="203.960396" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="238.613861" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="273.267327" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="307.920792" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="342.574257" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="377.227723" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="411.881188" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="446.534653" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="481.188119" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="515.841584" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="550.495050" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="585.148515" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="619.801980" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="654.455446" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="689.108911" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="723.762376" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<text x="758.415842" y="180.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">80%</text>
+<line x1="112.000000" y1="140.000000" x2="788.000000" y2="140.000000" style="fill:rgb(118,118,118); fill-opacity:0; stroke:rgb(230,230,230); stroke-opacity:1; stroke-width:1" />
+<text x="134.653465" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="169.306931" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="203.960396" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="238.613861" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="273.267327" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="307.920792" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="342.574257" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="377.227723" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="411.881188" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="446.534653" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="481.188119" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="515.841584" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="550.495050" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="585.148515" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="619.801980" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="654.455446" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="689.108911" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="723.762376" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<text x="758.415842" y="140.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">90%</text>
+<line x1="112.000000" y1="100.000000" x2="788.000000" y2="100.000000" style="fill:rgb(118,118,118); fill-opacity:0; stroke:rgb(230,230,230); stroke-opacity:1; stroke-width:1" />
+<text x="134.653465" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="169.306931" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="203.960396" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="238.613861" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="273.267327" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="307.920792" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="342.574257" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="377.227723" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="411.881188" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="446.534653" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="481.188119" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="515.841584" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="550.495050" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="585.148515" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="619.801980" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="654.455446" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="689.108911" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="723.762376" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+<text x="758.415842" y="100.000000" font-family="Apercu" font-size="3.000000pt" text-anchor="middle" text-align="center" dominant-baseline="central" font-weight="400" font-style="normal"  style="fill:rgb(200,200,200); fill-opacity:1; stroke:rgb(200,200,200); stroke-opacity:0; stroke-width:0.5">100%</text>
+ </g> <g id="polyline-firefox">
+<polyline points="100,500 135.658,500 173.5,280 212.658,280 223.02,128 223.748,124 225.896,124 226.485,120 271.431,120 272.02,112 312.426,112 312.98,108 342.505,108 344.342,116 422.658,116 423.802,112 424.287,112 424.946,108 427.856,108 428.411,112 608.748,112 609.96,108 611.139,104 614.015,104 614.535,100 " stroke-dasharray="1 2" stroke-linecap="triangle" marker-mid="url(#r2wcadg)" marker-end="url(#r2wcadg)"  style="fill:rgb(46,46,46); fill-opacity:0; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" />
+ </g> <g id="values-firefox">
+ <path id="triangle-3.000000-120.000000" d="M 102.598 501.5 L 100 497 L 97.4019 501.5 L 102.598 501.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+0%, 0ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 138.256 501.5 L 135.658 497 L 133.06 501.5 L 138.256 501.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+0%, 1029ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 176.098 281.5 L 173.5 277 L 170.902 281.5 L 176.098 281.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+55%, 2121ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 215.256 281.5 L 212.658 277 L 210.06 281.5 L 215.256 281.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+55%, 3251ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 225.618 129.5 L 223.02 125 L 220.422 129.5 L 225.618 129.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+93%, 3550ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 226.346 125.5 L 223.748 121 L 221.149 125.5 L 226.346 125.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+94%, 3571ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 228.494 125.5 L 225.896 121 L 223.298 125.5 L 228.494 125.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+94%, 3633ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 229.083 121.5 L 226.485 117 L 223.887 121.5 L 229.083 121.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+95%, 3650ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 274.029 121.5 L 271.431 117 L 268.833 121.5 L 274.029 121.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+95%, 4947ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 274.618 113.5 L 272.02 109 L 269.422 113.5 L 274.618 113.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+97%, 4964ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 315.024 113.5 L 312.426 109 L 309.828 113.5 L 315.024 113.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+97%, 6130ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 315.578 109.5 L 312.98 105 L 310.382 109.5 L 315.578 109.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+98%, 6146ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 345.103 109.5 L 342.505 105 L 339.907 109.5 L 345.103 109.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+98%, 6998ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 346.94 117.5 L 344.342 113 L 341.744 117.5 L 346.94 117.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+96%, 7051ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 425.256 117.5 L 422.658 113 L 420.06 117.5 L 425.256 117.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+96%, 9311ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 426.4 113.5 L 423.802 109 L 421.204 113.5 L 426.4 113.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+97%, 9344ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 426.885 113.5 L 424.287 109 L 421.689 113.5 L 426.885 113.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+97%, 9358ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 427.544 109.5 L 424.946 105 L 422.347 109.5 L 427.544 109.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+98%, 9377ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 430.455 109.5 L 427.856 105 L 425.258 109.5 L 430.455 109.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+98%, 9461ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 431.009 113.5 L 428.411 109 L 425.813 113.5 L 431.009 113.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+97%, 9477ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 611.346 113.5 L 608.748 109 L 606.149 113.5 L 611.346 113.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+97%, 14681ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 612.558 109.5 L 609.96 105 L 607.362 109.5 L 612.558 109.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+98%, 14716ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 613.737 105.5 L 611.139 101 L 608.541 105.5 L 613.737 105.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+99%, 14750ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 616.613 105.5 L 614.015 101 L 611.417 105.5 L 616.613 105.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+99%, 14833ms
+</title>
+ </path>
+<path id="triangle-3.000000-120.000000" d="M 617.133 101.5 L 614.535 97 L 611.937 101.5 L 617.133 101.5 " style="fill:rgb(46,46,46); fill-opacity:1; stroke:rgb(46,46,46); stroke-opacity:1; stroke-width:1" >
+<title>
+firefox
+100%, 14848ms
+</title>
+ </path>
+ </g> <g id="polyline-chrome">
+<polyline points="100,500 168.51,280 218.03,280 219.243,240 226.139,240 228.98,140 230.158,140 230.713,136 231.337,132 313.743,132 314.886,120 321.817,120 322.406,124 405.99,124 406.752,120 416.941,120 417.53,124 421.064,124 421.584,120 424.495,120 425.05,124 502.327,124 502.881,120 528.837,120 529.391,124 576.693,124 577.351,120 603.203,120 603.757,124 604.347,124 604.901,128 605.455,132 606.079,132 606.634,128 607.223,128 607.777,132 789.396,132 790.054,128 790.505,124 791.059,120 791.718,116 792.307,116 792.931,112 793.52,112 794.144,108 794.594,108 795.149,104 796.916,104 797.609,100 798.094,100 798.718,104 799.134,104 799.757,100 " stroke-dasharray="3" stroke-linecap="round" marker-mid="url(#c2wcaglg)" marker-end="url(#c2wcaglg)"  style="fill:rgb(148,148,148); fill-opacity:0; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" />
+ </g> <g id="values-chrome">
+ <circle cx="100.000000" cy="500.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+0%, 0ms
+</title>
+ </circle>
+<circle cx="168.509901" cy="280.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+55%, 1977ms
+</title>
+ </circle>
+<circle cx="218.029703" cy="280.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+55%, 3406ms
+</title>
+ </circle>
+<circle cx="219.242574" cy="240.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+65%, 3441ms
+</title>
+ </circle>
+<circle cx="226.138614" cy="240.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+65%, 3640ms
+</title>
+ </circle>
+<circle cx="228.980198" cy="140.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+90%, 3722ms
+</title>
+ </circle>
+<circle cx="230.158416" cy="140.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+90%, 3756ms
+</title>
+ </circle>
+<circle cx="230.712871" cy="136.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+91%, 3772ms
+</title>
+ </circle>
+<circle cx="231.336634" cy="132.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+92%, 3790ms
+</title>
+ </circle>
+<circle cx="313.742574" cy="132.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+92%, 6168ms
+</title>
+ </circle>
+<circle cx="314.886139" cy="120.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+95%, 6201ms
+</title>
+ </circle>
+<circle cx="321.816832" cy="120.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+95%, 6401ms
+</title>
+ </circle>
+<circle cx="322.405941" cy="124.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+94%, 6418ms
+</title>
+ </circle>
+<circle cx="405.990099" cy="124.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+94%, 8830ms
+</title>
+ </circle>
+<circle cx="406.752475" cy="120.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+95%, 8852ms
+</title>
+ </circle>
+<circle cx="416.940594" cy="120.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+95%, 9146ms
+</title>
+ </circle>
+<circle cx="417.529703" cy="124.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+94%, 9163ms
+</title>
+ </circle>
+<circle cx="421.064356" cy="124.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+94%, 9265ms
+</title>
+ </circle>
+<circle cx="421.584158" cy="120.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+95%, 9280ms
+</title>
+ </circle>
+<circle cx="424.495050" cy="120.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+95%, 9364ms
+</title>
+ </circle>
+<circle cx="425.049505" cy="124.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+94%, 9380ms
+</title>
+ </circle>
+<circle cx="502.326733" cy="124.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+94%, 11610ms
+</title>
+ </circle>
+<circle cx="502.881188" cy="120.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+95%, 11626ms
+</title>
+ </circle>
+<circle cx="528.836634" cy="120.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+95%, 12375ms
+</title>
+ </circle>
+<circle cx="529.391089" cy="124.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+94%, 12391ms
+</title>
+ </circle>
+<circle cx="576.693069" cy="124.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+94%, 13756ms
+</title>
+ </circle>
+<circle cx="577.351485" cy="120.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+95%, 13775ms
+</title>
+ </circle>
+<circle cx="603.202970" cy="120.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+95%, 14521ms
+</title>
+ </circle>
+<circle cx="603.757426" cy="124.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+94%, 14537ms
+</title>
+ </circle>
+<circle cx="604.346535" cy="124.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+94%, 14554ms
+</title>
+ </circle>
+<circle cx="604.900990" cy="128.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+93%, 14570ms
+</title>
+ </circle>
+<circle cx="605.455446" cy="132.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+92%, 14586ms
+</title>
+ </circle>
+<circle cx="606.079208" cy="132.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+92%, 14604ms
+</title>
+ </circle>
+<circle cx="606.633663" cy="128.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+93%, 14620ms
+</title>
+ </circle>
+<circle cx="607.222772" cy="128.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+93%, 14637ms
+</title>
+ </circle>
+<circle cx="607.777228" cy="132.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+92%, 14653ms
+</title>
+ </circle>
+<circle cx="789.396040" cy="132.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+92%, 19894ms
+</title>
+ </circle>
+<circle cx="790.054455" cy="128.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+93%, 19913ms
+</title>
+ </circle>
+<circle cx="790.504950" cy="124.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+94%, 19926ms
+</title>
+ </circle>
+<circle cx="791.059406" cy="120.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+95%, 19942ms
+</title>
+ </circle>
+<circle cx="791.717822" cy="116.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+96%, 19961ms
+</title>
+ </circle>
+<circle cx="792.306931" cy="116.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+96%, 19978ms
+</title>
+ </circle>
+<circle cx="792.930693" cy="112.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+97%, 19996ms
+</title>
+ </circle>
+<circle cx="793.519802" cy="112.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+97%, 20013ms
+</title>
+ </circle>
+<circle cx="794.143564" cy="108.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+98%, 20031ms
+</title>
+ </circle>
+<circle cx="794.594059" cy="108.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+98%, 20044ms
+</title>
+ </circle>
+<circle cx="795.148515" cy="104.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+99%, 20060ms
+</title>
+ </circle>
+<circle cx="796.915842" cy="104.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+99%, 20111ms
+</title>
+ </circle>
+<circle cx="797.608911" cy="100.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+100%, 20131ms
+</title>
+ </circle>
+<circle cx="798.094059" cy="100.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+100%, 20145ms
+</title>
+ </circle>
+<circle cx="798.717822" cy="104.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+99%, 20163ms
+</title>
+ </circle>
+<circle cx="799.133663" cy="104.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+99%, 20175ms
+</title>
+ </circle>
+<circle cx="799.757426" cy="100.000000" r="3.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(148,148,148); stroke-opacity:1; stroke-width:1" >
+<title>
+chrome
+100%, 20193ms
+</title>
+ </circle>
+ </g></svg>
+<g id="metric_values_bar_graphs_1x11">
+<rect x="100.000000" y="-nan" width="10.000000" height="-nan"
+ style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<rect x="130.000000" y="-nan" width="10.000000" height="-nan"
+ style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<text x="110.000000" y="-nan" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,110,-2147483648)">0</text>
+<text x="140.000000" y="-nan" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,140,-2147483648)">0</text>
+<text x="100.000000" y="1685.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" dominant-baseline="hanging" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,100,1685)">redirectEnd</text>
+<rect x="200.000000" y="1535.000000" width="10.000000" height="100.000000"
+ style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<rect x="230.000000" y="1605.212767" width="10.000000" height="29.787233"
+ style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<text x="210.000000" y="1530.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,210,1530)">23.5</text>
+<text x="240.000000" y="1600.212767" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,240,1600)">7</text>
+<rect x="215.000000" y="1605.920927" width="10.000000" height="29.079073"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<rect x="245.000000" y="1611.209255" width="10.000000" height="23.790745"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<text x="225.000000" y="1600.920927" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,225,1600)">58.1</text>
+<text x="255.000000" y="1606.209255" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,255,1606)">47.5</text>
+<text x="200.000000" y="1685.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" dominant-baseline="hanging" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,200,1685)">domainLookupStart</text>
+<rect x="300.000000" y="1559.285713" width="10.000000" height="75.714287"
+ style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<rect x="330.000000" y="1535.000000" width="10.000000" height="100.000000"
+ style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<text x="310.000000" y="1554.285713" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,310,1554)">53</text>
+<text x="340.000000" y="1530.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,340,1530)">70</text>
+<rect x="315.000000" y="1603.205133" width="10.000000" height="31.794867"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<rect x="345.000000" y="1594.819443" width="10.000000" height="40.180557"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<text x="325.000000" y="1598.205133" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,325,1598)">63.5</text>
+<text x="355.000000" y="1589.819443" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,355,1589)">80.3</text>
+<text x="300.000000" y="1685.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" dominant-baseline="hanging" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,300,1685)">connectStart</text>
+<rect x="400.000000" y="1548.131317" width="10.000000" height="86.868683"
+ style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<rect x="430.000000" y="1535.000000" width="10.000000" height="100.000000"
+ style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<text x="410.000000" y="1543.131317" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,410,1543)">86</text>
+<text x="440.000000" y="1530.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,440,1530)">99</text>
+<rect x="415.000000" y="1617.409609" width="10.000000" height="17.590391"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<rect x="445.000000" y="1601.678684" width="10.000000" height="33.321316"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<text x="425.000000" y="1612.409609" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,425,1612)">35.1</text>
+<text x="455.000000" y="1596.678684" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,455,1596)">66.6</text>
+<text x="400.000000" y="1685.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" dominant-baseline="hanging" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,400,1685)">requestStart</text>
+<rect x="500.000000" y="1551.634796" width="10.000000" height="83.365204"
+ style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<rect x="530.000000" y="1535.000000" width="10.000000" height="100.000000"
+ style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<text x="510.000000" y="1546.634796" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,510,1546)">872</text>
+<text x="540.000000" y="1530.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,540,1530)">1046</text>
+<rect x="515.000000" y="1625.020416" width="10.000000" height="9.979584"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<rect x="545.000000" y="1621.859187" width="10.000000" height="13.140813"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<text x="525.000000" y="1620.020416" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,525,1620)">19.9</text>
+<text x="555.000000" y="1616.859187" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,555,1616)">26.3</text>
+<text x="500.000000" y="1685.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" dominant-baseline="hanging" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,500,1685)">responseStart</text>
+<rect x="600.000000" y="1542.606560" width="10.000000" height="92.393440"
+ style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<rect x="630.000000" y="1535.000000" width="10.000000" height="100.000000"
+ style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<text x="610.000000" y="1537.606560" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,610,1537)">1409</text>
+<text x="640.000000" y="1530.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,640,1530)">1525</text>
+<rect x="615.000000" y="1627.053154" width="10.000000" height="7.946846"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<rect x="645.000000" y="1624.073423" width="10.000000" height="10.926577"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<text x="625.000000" y="1622.053154" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,625,1622)">15.9</text>
+<text x="655.000000" y="1619.073423" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,655,1619)">21.8</text>
+<text x="600.000000" y="1685.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" dominant-baseline="hanging" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,600,1685)">domInteractive</text>
+<rect x="700.000000" y="1579.324684" width="10.000000" height="55.675316"
+ style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<rect x="730.000000" y="1535.000000" width="10.000000" height="100.000000"
+ style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<text x="710.000000" y="1574.324684" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,710,1574)">4184</text>
+<text x="740.000000" y="1530.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,740,1530)">7515</text>
+<rect x="715.000000" y="1585.000000" width="10.000000" height="50.000000"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<rect x="745.000000" y="1585.000000" width="10.000000" height="50.000000"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<text x="725.000000" y="1580.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,725,1580)">99.9</text>
+<text x="755.000000" y="1580.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,755,1580)">99.9</text>
+<text x="700.000000" y="1685.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" dominant-baseline="hanging" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,700,1685)">loadEventEnd</text>
+<rect x="800.000000" y="1558.098747" width="10.000000" height="76.901253"
+ style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<rect x="830.000000" y="1535.000000" width="10.000000" height="100.000000"
+ style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<text x="810.000000" y="1553.098747" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,810,1553)">1355</text>
+<text x="840.000000" y="1530.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,840,1530)">1762</text>
+<rect x="815.000000" y="1627.021708" width="10.000000" height="7.978292"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<rect x="845.000000" y="1628.803535" width="10.000000" height="6.196465"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<text x="825.000000" y="1622.021708" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,825,1622)">15.9</text>
+<text x="855.000000" y="1623.803535" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,855,1623)">12.4</text>
+<text x="800.000000" y="1685.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" dominant-baseline="hanging" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,800,1685)">fcp</text>
+<rect x="900.000000" y="1559.861267" width="10.000000" height="75.138733"
+ style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<rect x="930.000000" y="1535.000000" width="10.000000" height="100.000000"
+ style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<text x="910.000000" y="1554.861267" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,910,1554)">1354</text>
+<text x="940.000000" y="1530.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,940,1530)">1802</text>
+<rect x="915.000000" y="1626.889393" width="10.000000" height="8.110607"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<rect x="945.000000" y="1627.648277" width="10.000000" height="7.351723"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<text x="925.000000" y="1621.889393" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,925,1621)">16.2</text>
+<text x="955.000000" y="1622.648277" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,955,1622)">14.7</text>
+<text x="900.000000" y="1685.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" dominant-baseline="hanging" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,900,1685)">lcp-elements-differ</text>
+<rect x="1000.000000" y="1554.013176" width="10.000000" height="80.986824"
+ style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<rect x="1030.000000" y="1535.000000" width="10.000000" height="100.000000"
+ style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<text x="1010.000000" y="1549.013176" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,1010,1549)">3135</text>
+<text x="1040.000000" y="1530.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,1040,1530)">3871</text>
+<rect x="1015.000000" y="1620.255914" width="10.000000" height="14.744086"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<rect x="1045.000000" y="1621.278565" width="10.000000" height="13.721435"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<text x="1025.000000" y="1615.255914" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,1025,1615)">29.5</text>
+<text x="1055.000000" y="1616.278565" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,1055,1616)">27.4</text>
+<text x="1000.000000" y="1685.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" dominant-baseline="hanging" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,1000,1685)">SpeedIndex</text>
+<rect x="1100.000000" y="1554.004128" width="10.000000" height="80.995872"
+ style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<rect x="1130.000000" y="1535.000000" width="10.000000" height="100.000000"
+ style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:0.5" />
+<text x="1110.000000" y="1549.004128" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,1110,1549)">16494</text>
+<text x="1140.000000" y="1530.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="start" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,1140,1530)">20364</text>
+<rect x="1115.000000" y="1585.000000" width="10.000000" height="50.000000"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<rect x="1145.000000" y="1585.000000" width="10.000000" height="50.000000"
+ style="fill:rgb(0,0,0); fill-opacity:0.5; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" />
+<text x="1125.000000" y="1580.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,1125,1580)">99.9</text>
+<text x="1155.000000" y="1580.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,1155,1580)">99.9</text>
+<text x="1100.000000" y="1685.000000" font-family="Atkinson Hyperlegible" font-size="10.000000pt" text-anchor="end" text-align="left" dominant-baseline="hanging" font-weight="400" font-style="normal"  style="fill:rgb(0,0,0); fill-opacity:1; stroke:rgb(255,255,255); stroke-opacity:0; stroke-width:0.5" transform="rotate(270,1100,1685)">LastVisualChange</text>
+<line x1="50.000000" y1="1635.000000" x2="1150.000000" y2="1635.000000" style="fill:rgb(255,255,255); fill-opacity:1; stroke:rgb(0,0,0); stroke-opacity:1; stroke-width:1.5" />
+ </g></svg>
+
