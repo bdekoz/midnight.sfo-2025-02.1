@@ -1,11 +1,3 @@
-## About
-- [progressive metrics](/docs/about_1.md)
-- [key to visualization](/docs/about_2.md)
-- [test and device metadata](/docs/results_metadata.md)
-- [notes](/docs/observations_notes.md)
-- [analysis notebook](/notebooks/lcp_perf_analysis_2025q1.ipynb)
-
-
 ## Results
 - [allrecipes](/pages/2025-05-27-android-15-ptablet-allrecipes-aggregate.svg)
 - [amazon](/pages/2025-05-27-android-15-ptablet-amazon-aggregate.svg)
@@ -32,6 +24,3 @@
 - [m_youtube](/pages/2025-05-27-android-15-ptablet-m_youtube-aggregate.svg)
 - [youtube_COU5T_Wafa4](/pages/2025-05-27-android-15-ptablet-youtube_COU5T_Wafa4-aggregate.svg)
 
-
-## Data
-* [json](https://github.com/bdekoz/midnight.sfo-2025-02.1/tree/main/results)
