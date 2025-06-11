@@ -11,6 +11,8 @@
 - [2025-03](/index-03.md)
 - [2025-04](/index-04.md)
 - [2025-05](/index-05.md)
+- [2025-06-phone](/index-06-phone.md)
+- [2025-06-tablet](/index-06-tablet.md)
 
 
 ## Data
